@@ -4637,6 +4637,7 @@ input[type="button"].btn-block {
   
 }
 
+
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
@@ -15205,7 +15206,7 @@ button.search-btn:hover {
   }
 
   .navbar .navbar-brand img {
-    max-width: 54px;
+    max-width: 60px;
   }
 
   .navbar-toggler {
