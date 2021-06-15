@@ -15665,7 +15665,7 @@ h3.title-main:after {
 }
 
 .w3l-main-slider .banner-top1 {
-  background: url(../images/banner3.jpg) no-repeat center right;
+  background: url(../images/banner_1.JPG) no-repeat center right;
   background-size: cover;
 }
 
@@ -17004,7 +17004,7 @@ h3.title-style {
 
 /* inner-banner */
 .inner-banner {
-  background: url(../images/header.jpg) no-repeat center;
+  background: url(../images/banner_1.JPG) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
