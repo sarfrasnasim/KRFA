@@ -16728,6 +16728,7 @@ h3.title-style {
 .w3l-footer-22 .copyright-footer {
   background: #040a17;
   padding: 20px 0;
+  
 }
 
 .w3l-footer-22 .column2 span {
@@ -17362,6 +17363,22 @@ h3.title-big {
   margin-left: auto;
   margin-right: auto;
 }
+.ftr {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+
+.whole{
+  max-height: 100%;
+}
+
+
+
+
+
 
 
 
