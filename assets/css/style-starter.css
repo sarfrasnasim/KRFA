@@ -15579,6 +15579,7 @@ h3.title-main:after {
 /* banner */
 .w3l-main-slider li {
   list-style-type: none;
+  
 }
 
 .w3l-main-slider .banner-info-bg ul li {
@@ -17362,6 +17363,10 @@ h3.title-big {
 .ex-mem {
   margin-left: auto;
   margin-right: auto;
+}
+
+#home {
+  height: 20%;
 }
 
 
