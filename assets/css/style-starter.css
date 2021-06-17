@@ -17371,21 +17371,13 @@ h3.title-big {
 
 
 
+@media (max-width: 992px) {
+  .tableSection{
+margin-top: 80px;
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.ads img{
+  margin: 8px;
+  border-radius: 18px;
+}

@@ -9,15 +9,12 @@
     <!-- google-fonts -->
     <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!-- //google-fonts -->
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
+    <link rel="stylesheet" href="assets/css/carousel.css">
     <link rel="shortcut icon" href="assets/images/circle-cropped.png" type="image/x-icon">
-    <!-- bootstrap -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    
-        
+
 </head>
 
 <body>
@@ -42,6 +39,8 @@
     </section>
     <!-- //top header -->
 
+
+
     <!--header-->
     <header id="site-header" class="fixed-top">
         <div class="container-fluid">
@@ -51,270 +50,311 @@
                         <img src="assets/images/circle-cropped.png" alt="" class="mr-1" height="50px"
                             width="50px" />KRFA</a>
                 </h1>
-                <!-- if logo is image enable this    -->
-                <!-- <a class="navbar-brand" href="#index.html">
-            <img src="assets/images/circle-cropped.png" alt="Your logo" title="Your logo" style="height:65px;" />
-        </a> -->
                 <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
                     data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
                     <span class="navbar-toggler-icon fa icon-close fa-times"></span>
                 </button>
-    
+
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-lg-auto">
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
-    
-                        <li class="nav-item active">
+
+                        <li class="nav-item ">
                             <a class="nav-link" href="gallery.html">Gallery</a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="members.html">Members</a>
                         </li>
-    
-    
+
+
                     </ul>
                 </div>
-    
+
             </nav>
         </div>
     </header>
     <!--//header-->
 
-    <section>
-        <img src="./assets/images/banner_1.JPG" alt="KRFA Group Photo" width="100%">
-    </section>
+
+    <div class="tableSection">
+        <!-- For Padding Purpose -->
+    </div>
+    <!-- New Carousel Start -->
+    <!-- Source: https://www.jssor.com/demos/banner-rotator.slider/=edit -->
+    <script src="/assets/js/jssor.slider-28.1.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/assets/js/carousel.js"></script>
+    <div id="jssor_1"
+        style="position:relative;margin:0 auto;top:0px;left:0px;width:675px;height:380px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin"
+            style="position:absolute;top:0px;left:0px;width:100%; max-width: 700px; height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+        </div>
+        <div data-u="slides"
+            style="cursor:default;position:relative;top:0px;left:0px;width:675px;height:380px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="https://via.placeholder.com/675x380.png?text=Ads1" />
+            </div>
+            <div>
+                <img data-u="image" src="https://via.placeholder.com/675x380.png?text=Ads2" />
+            </div>
+            <div>
+                <img data-u="image" src="https://via.placeholder.com/675x380.png?text=Ads3" />
+            </div>
+
+        </div>
+        <a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">responsive slider</a>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb053" style="position:absolute;bottom:16px;right:16px;" data-autocenter="1"
+            data-scale="0.5" data-scale-bottom="0.75">
+            <div data-u="prototype" class="i" style="width:12px;height:12px;">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <path class="b"
+                        d="M11400,13800H4600c-1320,0-2400-1080-2400-2400V4600c0-1320,1080-2400,2400-2400h6800 c1320,0,2400,1080,2400,2400v6800C13800,12720,12720,13800,11400,13800z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <!-- Arrow Navigator -->
+        <div data-u="arrowleft" class="jssora093" style="width:50px;height:50px;top:0px;left:30px;" data-autocenter="2"
+            data-scale="0.75" data-scale-left="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <circle class="c" cx="8000" cy="8000" r="5920"></circle>
+                <polyline class="a" points="7777.8,6080 5857.8,8000 7777.8,9920 "></polyline>
+                <line class="a" x1="10142.2" y1="8000" x2="5857.8" y2="8000"></line>
+            </svg>
+        </div>
+        <div data-u="arrowright" class="jssora093" style="width:50px;height:50px;top:0px;right:30px;"
+            data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <circle class="c" cx="8000" cy="8000" r="5920"></circle>
+                <polyline class="a" points="8222.2,6080 10142.2,8000 8222.2,9920 "></polyline>
+                <line class="a" x1="5857.8" y1="8000" x2="10142.2" y2="8000"></line>
+            </svg>
+        </div>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();
+    </script>
+    <!-- #endregion Jssor Slider End -->
+    <!-- New Carousel End -->
+
+
+    <center>
+        <img src="./assets/images/banner_1.JPG" alt="KRFA Group Photo" width="93%"
+            style="border-radius: 18px; margin: 18px; margin-top: 33px; max-width: 700px;">
+    </center>
+
+
+
     <section id="features">
         <div class="row">
             <div class="title-heading-w3 text-center mx-auto mb-5 pb-sm-4">
                 <h3 class="title-main"><span>About Us</span></h3>
             </div>
             <div class="about">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
         </div>
 
-    <!-- carousel -->
-    <section class="w3l-main-slider" id="home">
-        <div class="companies20-content">
-            <div class="owl-one owl-carousel owl-theme">
-                <div class="item">
-                    <li>
-                        <div class="slider-info banner-view">
-                            <div class="banner-info">
-                                <div class="container">
-                                    <div class="banner-info-bg">
-                                    
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </div>
-                <div class="item">
-                    <li>
-                        <div class="slider-info  banner-view banner-top1">
-                            <div class="banner-info">
-                                <div class="container">
-                                    <div class="banner-info-bg">
-                                        
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
+
+
+        <!-- Ads Section Start -->
+        <center>
+            <section class="ads">
+                <img src="https://via.placeholder.com/675x380.png?text=Ads1" width="97%" style="max-width: 500px;">
+                <img src="https://via.placeholder.com/675x380.png?text=Ads2" width="97%" style="max-width: 500px;">
+                <img src="https://via.placeholder.com/675x380.png?text=Ads3" width="97%" style="max-width: 500px;">
+            </section>
+        </center>
+        <!-- Ads Section End -->
+
+
+
+        <!-- footer -->
+        <footer class="w3l-footer-22 position-relative mt-5 pt-5">
+
+            <!-- copyright -->
+            <div class="copyright-footer text-center">
+                <div class="container">
+                    <div class="columns">
+                        <p>@2021 KRFA. All rights reserved. Design by TechNXT</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+            <!-- //copyright -->
+        </footer>
+        <!-- //footer -->
 
-    <!-- //carousel -->
-    <section class="ads">
-        <img src="https://via.placeholder.com/300x300.png?text=Ads" alt="KRFA Group Photo">
-    </section>
+        <!-- Js scripts -->
+        <!-- move top -->
+        <button onclick="topFunction()" id="movetop" title="Go to top">
+            <span class="fa fa-level-up" aria-hidden="true"></span>
+        </button>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+        <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () {
+                scrollFunction()
+            };
 
-
-    <!-- footer -->
-    <footer class="w3l-footer-22 position-relative mt-5 pt-5">
-
-        <!-- copyright -->
-        <div class="copyright-footer text-center">
-            <div class="container">
-                <div class="columns">
-                    <p>@2021 KRFA. All rights reserved. Design by TechNXT</p>
-                </div>
-            </div>
-        </div>
-        <!-- //copyright -->
-    </footer>
-    <!-- //footer -->
-
-    <!-- Js scripts -->
-    <!-- move top -->
-    <button onclick="topFunction()" id="movetop" title="Go to top">
-        <span class="fa fa-level-up" aria-hidden="true"></span>
-    </button>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
-    <script>
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function () {
-            scrollFunction()
-        };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("movetop").style.display = "block";
-            } else {
-                document.getElementById("movetop").style.display = "none";
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("movetop").style.display = "block";
+                } else {
+                    document.getElementById("movetop").style.display = "none";
+                }
             }
-        }
 
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
-    <!-- //move top -->
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+        <!-- //move top -->
 
-    <!-- common jquery plugin -->
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
-    <!-- //common jquery plugin -->
+        <!-- common jquery plugin -->
+        <script src="assets/js/jquery-3.3.1.min.js"></script>
+        <!-- //common jquery plugin -->
 
-    <!-- banner slider -->
-    <script src="assets/js/owl.carousel.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.owl-one').owlCarousel({
-                loop: true,
-                margin: 0,
-                nav: false,
-                responsiveClass: true,
-                autoplay: true,
-                autoplayTimeout: 5000,
-                autoplaySpeed: 1000,
-                autoplayHoverPause: false,
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: false
-                    },
-                    480: {
-                        items: 1,
-                        nav: false
-                    },
-                    667: {
-                        items: 1,
-                        nav: false
-                    },
-                    1000: {
-                        items: 1,
-                        nav: false
+        <!-- banner slider -->
+        <script src="assets/js/owl.carousel.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.owl-one').owlCarousel({
+                    loop: true,
+                    margin: 0,
+                    nav: false,
+                    responsiveClass: true,
+                    autoplay: true,
+                    autoplayTimeout: 5000,
+                    autoplaySpeed: 1000,
+                    autoplayHoverPause: false,
+                    responsive: {
+                        0: {
+                            items: 1,
+                            nav: false
+                        },
+                        480: {
+                            items: 1,
+                            nav: false
+                        },
+                        667: {
+                            items: 1,
+                            nav: false
+                        },
+                        1000: {
+                            items: 1,
+                            nav: false
+                        }
                     }
-                }
+                })
             })
-        })
-    </script>
-    <!-- //banner slider -->
+        </script>
+        <!-- //banner slider -->
 
-    <!-- counter for stats -->
-    <script src="assets/js/counter.js"></script>
-    <!-- //counter for stats -->
+        <!-- counter for stats -->
+        <script src="assets/js/counter.js"></script>
+        <!-- //counter for stats -->
 
-    <!-- theme switch js (light and dark)-->
-    <script src="assets/js/theme-change.js"></script>
-    <script>
-        function autoType(elementClass, typingSpeed) {
-            var thhis = $(elementClass);
-            thhis.css({
-                "position": "relative",
-                "display": "inline-block"
+        <!-- theme switch js (light and dark)-->
+        <script src="assets/js/theme-change.js"></script>
+        <script>
+            function autoType(elementClass, typingSpeed) {
+                var thhis = $(elementClass);
+                thhis.css({
+                    "position": "relative",
+                    "display": "inline-block"
+                });
+                thhis.prepend('<div class="cursor" style="right: initial; left:0;"></div>');
+                thhis = thhis.find(".text-js");
+                var text = thhis.text().trim().split('');
+                var amntOfChars = text.length;
+                var newString = "";
+                thhis.text("|");
+                setTimeout(function () {
+                    thhis.css("opacity", 1);
+                    thhis.prev().removeAttr("style");
+                    thhis.text("");
+                    for (var i = 0; i < amntOfChars; i++) {
+                        (function (i, char) {
+                            setTimeout(function () {
+                                newString += char;
+                                thhis.text(newString);
+                            }, i * typingSpeed);
+                        })(i + 1, text[i]);
+                    }
+                }, 1500);
+            }
+
+            $(document).ready(function () {
+                // Now to start autoTyping just call the autoType function with the 
+                // class of outer div
+                // The second paramter is the speed between each letter is typed.   
+                autoType(".type-js", 200);
             });
-            thhis.prepend('<div class="cursor" style="right: initial; left:0;"></div>');
-            thhis = thhis.find(".text-js");
-            var text = thhis.text().trim().split('');
-            var amntOfChars = text.length;
-            var newString = "";
-            thhis.text("|");
-            setTimeout(function () {
-                thhis.css("opacity", 1);
-                thhis.prev().removeAttr("style");
-                thhis.text("");
-                for (var i = 0; i < amntOfChars; i++) {
-                    (function (i, char) {
-                        setTimeout(function () {
-                            newString += char;
-                            thhis.text(newString);
-                        }, i * typingSpeed);
-                    })(i + 1, text[i]);
+        </script>
+        <!-- //theme switch js (light and dark)-->
+
+        <!-- MENU-JS -->
+        <script>
+            $(window).on("scroll", function () {
+                var scroll = $(window).scrollTop();
+
+                if (scroll >= 80) {
+                    $("#site-header").addClass("nav-fixed");
+                } else {
+                    $("#site-header").removeClass("nav-fixed");
                 }
-            }, 1500);
-        }
+            });
 
-        $(document).ready(function () {
-            // Now to start autoTyping just call the autoType function with the 
-            // class of outer div
-            // The second paramter is the speed between each letter is typed.   
-            autoType(".type-js", 200);
-        });
-    </script>
-    <!-- //theme switch js (light and dark)-->
-
-    <!-- MENU-JS -->
-    <script>
-        $(window).on("scroll", function () {
-            var scroll = $(window).scrollTop();
-
-            if (scroll >= 80) {
-                $("#site-header").addClass("nav-fixed");
-            } else {
-                $("#site-header").removeClass("nav-fixed");
-            }
-        });
-
-        //Main navigation Active Class Add Remove
-        $(".navbar-toggler").on("click", function () {
-            $("header").toggleClass("active");
-        });
-        $(document).on("ready", function () {
-            if ($(window).width() > 991) {
-                $("header").removeClass("active");
-            }
-            $(window).on("resize", function () {
+            //Main navigation Active Class Add Remove
+            $(".navbar-toggler").on("click", function () {
+                $("header").toggleClass("active");
+            });
+            $(document).on("ready", function () {
                 if ($(window).width() > 991) {
                     $("header").removeClass("active");
                 }
+                $(window).on("resize", function () {
+                    if ($(window).width() > 991) {
+                        $("header").removeClass("active");
+                    }
+                });
             });
-        });
-    </script>
-    <!-- //MENU-JS -->
+        </script>
+        <!-- //MENU-JS -->
 
-    <!-- disable body scroll which navbar is in active -->
-    <script>
-        $(function () {
-            $('.navbar-toggler').click(function () {
-                $('body').toggleClass('noscroll');
-            })
-        });
-    </script>
-    <!-- //disable body scroll which navbar is in active -->
+        <!-- disable body scroll which navbar is in active -->
+        <script>
+            $(function () {
+                $('.navbar-toggler').click(function () {
+                    $('body').toggleClass('noscroll');
+                })
+            });
+        </script>
+        <!-- //disable body scroll which navbar is in active -->
 
-    <!--bootstrap-->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- //bootstrap-->
-    <!-- //Js scripts -->
+        <!--bootstrap-->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- //bootstrap-->
+        <!-- //Js scripts -->
 </body>
 
 </html>
