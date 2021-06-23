@@ -1,44 +1,21 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/form/fonts/icomoon/style.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/form/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="assets/form/css/owl.carousel.min.css">
+  <!-- Style -->
+  <link rel="stylesheet" href="assets/css/style-starter.css">
+  <link rel="shortcut icon" href="assets/images/circle-cropped.png" type="image/x-icon">
+  <title>Add Members | KRFA</title>
+</head>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/form/css/bootstrap.min.css">
-    
-    <!-- Style -->
-    <link rel="stylesheet" href="assets/css-addmem/style.css">
-    <link rel="stylesheet" href="assets/css/style-starter.css">
-    <link rel="shortcut icon" href="assets/images/circle-cropped.png" type="image/x-icon">
-    <title>KRFA | add-members</title>
-  </head>
-  <body>
-  <!-- top header -->
-  <section class="w3l-top-header">
-    <div class="container-fluid">
-      <div class="top-content-w3ls d-flex align-items-center justify-content-between">
-        <div class="top-headers">
-          <ul>
-            <li>
-              <i class="fa fa-phone"></i><a href="tel:+917034014255">+917034014255</a>
-            </li>
-            <li>
-              <i class="fa fa-envelope"></i><a href="mailto:krfakozhikode@gmail.com">krfakozhikode@gmail.com</a>
-            </li>
-          </ul>
-        </div>
-  
-      </div>
-    </div>
-  </section>
-  <!-- //top header -->
+<body>
   <!--header-->
   <header id="site-header" class="fixed-top">
     <div class="container-fluid">
@@ -53,92 +30,67 @@
           <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
           <span class="navbar-toggler-icon fa icon-close fa-times"></span>
         </button>
-  
+
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ml-lg-auto">
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
-  
+
             <li class="nav-item ">
               <a class="nav-link" href="gallery.html">Gallery</a>
             </li>
-  
+            <li class="nav-item">
+              <a class="nav-link" href="admin.html">Admin</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="members.html">Members</a>
             </li>
-  
-            <li class="nav-item">
-              <a class="nav-link" href="login.html">Login</a>
-            </li>
             <li class="nav-item active">
-              <a class="nav-link" href="add-members.html">Add-members</a>
+              <a class="nav-link" href="add-members.html">Add Members</a>
             </li>
-  
-  
-  
+            <li class="nav-item">
+              <a class="nav-link" href="add-ads.html">Add Ads</a>
+            </li>
+
           </ul>
         </div>
-  
+
       </nav>
     </div>
   </header>
   <!--//header-->
-  
-  <div class="content">
-    
-    <div class="container">
 
-      
-      <div class="row justify-content-center">
-        <div class="col-md-10">
-          
-          <div class="row align-items-center">
-            <div class="col-lg-7 mb-5 mb-lg-0">
-
-              <h3 class="mb-5 title-main"><center><span>Add Member</span></center></h3>
-
-              <form class="border-right pr-5 mb-5" method="post" id="contactForm" name="contactForm">
-                <div class="row">
-                  <div class="col-md-12 form-group">
-                    <input type="text" class="form-control" name="ID" id="id" placeholder="ID">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-12 form-group">
-                    <input type="text" class="form-control" name="name" id="name" placeholder="Name">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-12 form-group">
-                    <input type="text" class="form-control" name="mobile-number" id="mobile-number" placeholder="Mobile Number">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-12 form-group">
-                    <input type="text" class="form-control" name="constituency" id="constituency" placeholder="Constituency">
-                  </div>
-                </div>
-                <!-- upload  -->
-                <div class="row">
-                <div class="col-md-12 form-group">
-                  <input type="file" multiple>
-                  <p>Select image to upload</p>
-                  <input type="submit" value="Upload" class="btn btn-primary rounded-0 py-2 px-4">
-                </div>
-                </div>
-                <!-- //upload  -->
-                </form>
-             
-            </div>
-            </div>
-        </div>  
-        </div>
+  <!-- Form Start -->
+  <div class="container top-margin">
+    <form>
+      <div class="form-group">
+        <label for="memeberId">Enter ID</label>
+        <input type="email" class="form-control" id="memeberId" aria-describedby="emailHelp">
       </div>
+      <div class="form-group">
+        <label for="memberName">Enter Name</label>
+        <input type="password" class="form-control" id="memberName">
+      </div>
+      <div class="form-group">
+        <label for="memberPhone">Enter Mobile Number</label>
+        <input type="password" class="form-control" id="memberPhone">
+      </div>
+      <div class="form-group">
+        <label for="memberConstituency">Enter Constituency</label>
+        <input type="password" class="form-control" id="memberConstituency">
+      </div>
+      <div class="form-group">
+        <label for="memberImage">Image</label>
+        <input type="file" class="form-control-file" id="memberImage">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
   </div>
+  <!-- Form End -->
+
   <!-- footer -->
   <footer class="w3l-footer-22 position-relative mt-5 pt-5">
-  
     <!-- copyright -->
     <div class="copyright-footer text-center">
       <div class="container">
@@ -150,14 +102,15 @@
     <!-- //copyright -->
   </footer>
   <!-- //footer -->
-  
-    
-    
 
-    <script src="assets/form/js/jquery-3.3.1.min.js"></script>
-    <script src="assets/form/js/popper.min.js"></script>
-    <script src="assets/form/js/bootstrap.min.js"></script>
-    <script src="assets/form/js/jquery.validate.min.js"></script>
-    <script src="assets/form/js/main.js"></script>
-  </body>
+
+
+
+  <script src="assets/form/js/jquery-3.3.1.min.js"></script>
+  <script src="assets/form/js/popper.min.js"></script>
+  <script src="assets/form/js/bootstrap.min.js"></script>
+  <script src="assets/form/js/jquery.validate.min.js"></script>
+  <script src="assets/form/js/main.js"></script>
+</body>
+
 </html>
